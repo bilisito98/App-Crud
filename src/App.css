@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/src/image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.add-form input {
+  flex: 1 1 30%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  min-width: 120px;
+}
+
+.add-form button {
+  padding: 8px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1 1 100px;
+  min-width: 100px;
+}
+
+.add-form button:hover {
+  background: #388e3c;
+}
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-table th,
+.book-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.book-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.book-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.book-table tr:hover {
+  background-color: #ddd;
+}
+
+.book-table button {
+  margin-right: 6px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 3px;
+  background: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+.book-table button:hover {
+  background: #1565c0;
+}
+
+.book-table input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+}
