@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Book CRUD (Frontend Only)</h1>
+      <h1>App-Book</h1>
       <form onSubmit={addBook} className="add-form">
         <input
           type="text"
