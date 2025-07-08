@@ -78,11 +78,11 @@ h1 {
 }
 
 .book-table tr:nth-child(even) {
-  background-color: #fafafa;
+  background-color: #6d6b6b;
 }
 
 .book-table tr:hover {
-  background-color: #ddd;
+  background-color: #a8a6a6;
 }
 
 .book-table button {
@@ -91,7 +91,7 @@ h1 {
   border: none;
   border-radius: 3px;
   background: #2196f3;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
