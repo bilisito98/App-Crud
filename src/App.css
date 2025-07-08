@@ -16,7 +16,7 @@ body {
 .app-container {
   width: 90%;
   max-width: 900px;
-  background: rgba(249, 249, 249, 0.96);
+  background: rgba(119, 116, 116, 0.96);
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.15);
   padding: 20px 30px 30px 30px;
@@ -25,7 +25,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #030303;
   margin-bottom: 20px;
 }
 
@@ -67,7 +67,7 @@ h1 {
 
 .book-table th,
 .book-table td {
-  border: 1px solid #ddd;
+  border: 1px solid #050505;
   padding: 10px;
   text-align: left;
 }
@@ -78,7 +78,7 @@ h1 {
 }
 
 .book-table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #fafafa;
 }
 
 .book-table tr:hover {
