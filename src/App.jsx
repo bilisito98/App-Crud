@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Footer from "./Footer.jsx";
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -173,6 +174,9 @@ function App() {
           )}
         </tbody>
       </table>
+
+      {/* Agregamos footer si no, no va a aprecer.... */}
+      <Footer />
     </div>
   );
 }

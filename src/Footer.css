@@ -1,0 +1,80 @@
+.footer {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+}
+
+.footer-team {
+  color: #ff9800;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 8px;
+  transition: color 0.2s;
+}
+.footer-team:hover, .footer-team:focus {
+  color: #ffa726;
+}
+
+.footer-modal-backdrop {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.footer-modal {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  padding: 32px 24px;
+  min-width: 260px;
+  max-width: 90vw;
+  text-align: center;
+  position: relative;
+}
+
+.footer-modal-content h3 {
+  margin: 16px 0 8px 0;
+  color: #ff9800;
+  font-size: 1.3rem;
+}
+.footer-modal-content p {
+  color: #333;
+  font-size: 1rem;
+  margin: 0 0 12px 0;
+}
+.footer-profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border: 3px solid #ff9800;
+}
+.footer-modal-close {
+  margin-top: 12px;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.footer-modal-close:hover {
+  background: #fb8c00;
+}
