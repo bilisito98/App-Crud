@@ -22,7 +22,7 @@ function Footer() {
           <div className="footer-modal" onClick={e => e.stopPropagation()}>
             <div className="footer-modal-content">
               <img
-                src="/src/Neo.jpeg"
+                src="/Neo.jpeg"
                 alt="Foto de perfil"
                 className="footer-profile-img"
               />

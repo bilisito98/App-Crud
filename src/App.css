@@ -14,8 +14,8 @@ body {
 }
 
 .app-container {
-  width: 90%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 980px;
   background: rgba(119, 116, 116, 0.96);
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.15);
